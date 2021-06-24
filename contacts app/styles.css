@@ -1,0 +1,75 @@
+* {
+margin: 0;
+padding: 0;
+}
+body {
+    background-color: rgb(179, 179, 179);
+    padding: 5%;
+}
+body, input, button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+input, button {
+    padding: 10px 30px;
+}
+input {
+    border: 1px solid rgb(146, 146, 146);
+}
+button {
+    border: 0;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    opacity: .8;
+}
+button:hover {
+    opacity: 1;
+}
+.form {
+    border-radius: 20px;
+    background-color: white;
+    padding: 5%;
+    text-align: center;
+
+    max-width: 400px;
+    box-shadow: 0 0 20px rgb(212, 212, 212);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.form input {
+    width: calc(100% - 62px);
+}
+.form h3,
+.form_add h3 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.form_field {
+    margin-bottom: 30px;
+}
+.contacts_list ul {
+    list-style: none;
+}
+
+.contacts {
+    background-color: white;
+    text-align: center;
+    max-width: 400px;
+}
+li {
+    margin-bottom: 5px;
+    padding-bottom: 25px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr;
+}
+h1 {
+    margin-bottom: 30px;
+}
+
+.add {
+    margin-bottom: 30px;
+}
